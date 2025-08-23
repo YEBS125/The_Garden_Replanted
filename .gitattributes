@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+Content/_Core/** filter=lfs diff=lfs merge=lfs -text
+Content/_Gameplay/** filter=lfs diff=lfs merge=lfs -text
+Content/Builders/** filter=lfs diff=lfs merge=lfs -text
+Content/Maps/** filter=lfs diff=lfs merge=lfs -text
+Content/Packages/** filter=lfs diff=lfs merge=lfs -text
